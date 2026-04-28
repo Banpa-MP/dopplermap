@@ -11,10 +11,6 @@ app_license = "MIT"
 
 # dopplermap_app/hooks.py
 
-website_route_rules = [
-    {"from_route": "/doppler_ui/<path:path>", "to_route": "/dopplermap_ui/index.html"},
-]
-
 # Deshabilitar construcción de assets (importante para evitar errores)
 skip_assets_build = True
 app_include_js = []
