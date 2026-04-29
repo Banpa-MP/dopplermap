@@ -10,7 +10,7 @@ dependencies = ["requests"]
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
-
+#
 # 👇 SECCIÓN CLAVE QUE DEBES AÑADIR
 [tool.bench.frappe-dependencies]
 frappe = ">=16.0.0"
