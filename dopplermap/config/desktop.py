@@ -8,6 +8,6 @@ def get_data():
             "label": _("Dopplermap Health"),
             "icon": "fa fa-stethoscope",
             "type": "module",
-            "app": "dopplermap_app"
+            "app": "dopplermap"
         }
     ]
