@@ -1,6 +1,6 @@
 ﻿[project]
 name = "dopplermap"
-version = "1.0.1"
+version = "0.0.1"
 description = "Test app for Frappe"
 authors = [{name = "Test"}]
 license = {text = "MIT"}
@@ -17,7 +17,7 @@ frappe = ">=16.0.0"
 
 [tool.frappe]
 app_name = "dopplermap"
-app_title = "Dopplermap"
+app_title = "Dopplermap App"
 app_publisher = "Felix Alberti"
 app_description = "Testing"
 app_icon = "octicon octicon-file-directory"
