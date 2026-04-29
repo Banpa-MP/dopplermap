@@ -1,7 +1,7 @@
 ﻿from __future__ import unicode_literals
 
-app_name = "dopplermap_app"
-app_title = "Dopplermap App"
+app_name = "dopplermap"
+app_title = "Dopplermap"
 app_publisher = "Felix Alberti"
 app_description = "API para Gemini"
 app_icon = "octicon octicon-file-directory"
