@@ -1,4 +1,4 @@
-import frappe
+﻿import frappe
 import requests
 import json
 import time
@@ -15,6 +15,7 @@ def generar_reporte_gemini(prompt_text):
         if not api_key:
             frappe.throw("Error: No hay API Key configurada en 'Configuracion Gemini'.")
 
+        #
         # Parámetros
         modelo_principal = config.modelo_predeterminado or "gemini-2.5-flash"
         # Opcional: modelo alternativo si el principal falla por cuota
