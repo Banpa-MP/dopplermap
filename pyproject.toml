@@ -1,6 +1,6 @@
 [project]
 name = "dopplermap"
-version = "0.0.1"
+version = "1.0.1"
 description = "Test app for Frappe"
 authors = [{name = "Test"}]
 license = {text = "MIT"}
