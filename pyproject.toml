@@ -1,4 +1,4 @@
-﻿[project]
+[project]
 name = "dopplermap"
 version = "0.0.1"
 description = "Mapa Doppler Vascular"
