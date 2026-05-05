@@ -1,26 +1,5 @@
-[project]
+﻿[project]
 name = "dopplermap"
-version = "1.0.1"
-description = "Test app for Frappe"
-authors = [{name = "Test", email = "test@example.com"}]
-license = {text = "MIT"}
-requires-python = ">=3.10"
-dependencies = ["requests"]
-
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
-
-[tool.bench.frappe-dependencies]
-frappe = ">=16.0.0"
-
-[tool.frappe]
-app_name = "dopplermap"
-app_title = "Dopplermap"
-app_publisher = "Felix Alberti"
-app_description = "Testing"
-app_icon = "octicon octicon-file-directory"
-app_color = "grey"
-app_email = "felixalberti74@gmail.com"   # ← CORREGIDO
-app_license = "MIT"
-skip_assets_build = true
+version = "0.0.1"
+description = "Mapa Doppler Vascular"
+dependencies = ["frappe"]
