@@ -1,5 +1,28 @@
 [project]
 name = "dopplermap"
 version = "0.0.1"
-description = "Mapa Doppler Vascular"
-dependencies = ["frappe"]
+description = "Test app for Frappe"
+authors = [{name = "Test"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["requests"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+# 👇 SECCIÓN CLAVE QUE DEBES AÑADIR
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0"
+
+[tool.frappe]
+app_name = "dopplermap"
+app_title = "Dopplermap"
+app_publisher = "Felix Alberti"
+app_description = "Testing"
+app_icon = "octicon octicon-file-directory"
+app_color = "grey"
+app_email = "felixalberti74mail.com"
+app_license = "MIT"
+skip_assets_build = true
+assets = []
