@@ -14,7 +14,8 @@ def consultar_gemini(prompt):
     
     if not api_key:
         frappe.throw("La API Key de Gemini no está configurada en el servidor. Por favor configúrala en 'Doppler Settings'.")
-        
+
+    #        
     # Inicializa el cliente de Gemini
     genai.configure(api_key=api_key)
     
