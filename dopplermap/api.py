@@ -21,7 +21,7 @@ def consultar_gemini(prompt):
     
     try:
         # Usa el modelo más rápido y económico para texto
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         # Ejecuta el prompt que llega desde React
         response = model.generate_content(prompt)
